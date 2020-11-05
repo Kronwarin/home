@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE Kronwarin</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://nickzaahhaahha.github.io/HCI_work6/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="https://adminlte.io/themes/v3/plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style>
+    .dropbtn {
+      background-color: #ffffff;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #ffffff;}
+    </style>
+ 
+</head>
+<body class="hold-transition sidebar-mini layout-fixed" style="font-family:kanit;">
+<div class="wrapper">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <div class="dropdown">
+        <button class="dropbtn">Pyramid</button>
+        <div class="dropdown-content">
+          <a href="https://github.com/Kronwarin/java_pyramid" class="nav-link">Pyramid Java</a>
+          <a href="https://github.com/Kronwarin/php_pyramid2" class="nav-link">Pyramid Php</a>
+        </div>
+      </div>
+    </ul>
+      </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form action="https://thaiwebsearch.hypermart.net/cgi/srchweb.pl" class="form-inline ml-3">
+      <div class="input-group input-group-sm">
+        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search" name="SearchText" value="hello"> 
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-1 pb-1 mb-1 d-flex">
+        <img src="https://raw.githubusercontent.com/Kronwarin/home/gh-pages/IMG_6318.JPG" alt="User Image" style="height:30px;">
+        <div class="info">
+          <a href="index.htm" class="d-block">Kronwarin P</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
+          <!-- li class="nav-item has-treeview menu-open" -->
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link active">
+              <i class="fas fa-globe"></i>
+              <p> Social Media
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="https://www.facebook.com/namwarn.kronwarin" class="nav-link">
+                  <i class="fab fa-facebook"></i>
+                  <p>Facebook</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://youtube.com/channel/UCui_3cBayLdoib2U8Udgcpg" class="nav-link">
+                  <i class="fab fa-youtube"></i>
+                  <p>Youtube</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/kronwarins/" class="nav-link">
+                  <i class="fab fa-instagram-square"></i>
+                  <p>Instagram</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link active">
+              <i class="fas fa-heart"></i>
+              <p>
+                กรวรินทร์ พุทธวงค์
+                 <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="https://github.com/Kronwarin" class="nav-link">
+                  <i class="fab fa-sketch"></i>
+                  <p>Mygithub</p>
+                </a>
+              </li>
+                                        
+            </ul>
+          </li>
+              <li class="nav-item has-treeview menu-close">
+                <a href="#" class="nav-link active">
+                  <i class="fas fa-sun"></i>
+                  <p>
+                   วิชาที่สนใจ
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item has-treeview menu-close">
+                    <a href="https://github.com/Kronwarin/home" class="nav-link">
+                      <i class="fas fa-clipboard"></i>
+                      <p>
+                        TECH100
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">                     
+                      <li class="nav-item">
+                        <a href="https://kronwarin.blogspot.com/2017/09/blog-post.html?fbclid=IwAR2sA4q2SsAKN4bp7IRA_7mIvKPGShgjso1xTqrETyBZDGlpd8U81U2MZDo" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Myblog</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://raw.githubusercontent.com/Kronwarin/home/gh-pages/powerpoint.jpg" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Curve in powerpoint</p> <!--Curve in powerpoint-->
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://kronwarinput.blogspot.com/2017/11/5.html?fbclid=IwAR2s42b8fD8pOwa7xBuVP9rOwcZPfuAm7rV4lBVYkOQ77aJcU39MNto27-c" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>King Bhumibol</p>
+                        </a>
+                      </li>      
+                    </ul>
+                  </li>	
+                </ul>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item has-treeview menu-close">
+                    <a href="#" class="nav-link">
+                      <i class="fas fa-clipboard"></i>
+                      <p>
+                        CPSC231_611
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="https://www.youtube.com/watch?v=FlBlj74A9QU&feature=youtu.be&fbclid=IwAR2kFerJJCpYlsHl_MEZ32ga8Aw8MPwJnxoGWnVDZPaPUc-LIKZ9QKzQ9QI" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>วิดีโอโครงสร้างข้อมูลลิงค์ลิสต์</p>
+                        </a>
+                      </li>                       
+                      <li class="nav-item">
+                        <a href="https://kronwarin.github.io/Code-1-10/?fbclid=IwAR25yuUw3BOZyZS9rkowoCrGxtBOUVmswPohU8CuhPLaKrLpBBrCLDR24QI" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Run 1 to 10 หลายภาษา</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://kronwarin.github.io/my-work-program/?fbclid=IwAR2eBDJF7KztdA4k8Lt_pIzzhSAXHat39pyNU3yxkIX79f8z2GGHmuEJIDA" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>งาน Github.io</p>
+                        </a>
+                      </li>      
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item has-treeview menu-close">
+                    <a href="#" class="nav-link">
+                      <i class="fas fa-clipboard"></i>
+                      <p>
+                        CPSC331_621
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/CPSC331_621/blob/master/final.pdf?fbclid=IwAR0yFuqZby9IRlYMOpqUGnKZyC1OykfXEp8IdjF-9hcnKKhiqB0yN2yH12o" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Final Project</p>
+                        </a>
+                      </li>                       
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/CPSC331_621/blob/master/Midterm_project.pdf?fbclid=IwAR11R8zwGCpUZwZG0IPrHa0brZii3ptr8sYkInKyPwocFrnaPlk8lSw99Hc" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Midterm Project</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://kronwarin.github.io/CPSC331_621_homework6/?fbclid=IwAR2YQb8VNCZDumOlNQckyu9aneGJHu2uzZUAh3Qt82kgfwSFd1EVhoISU-Q" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Mysql_update 5&7</p>
+                        </a>
+                      </li>      
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item has-treeview menu-close">
+                    <a href="#" class="nav-link">
+                      <i class="fas fa-clipboard"></i>
+                      <p>
+                        CPSC321_621
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/CPSC321HCI/blob/master/poster2.pdf?fbclid=IwAR2y-nsT9BM8yLAIvjpYM3dJdN_TZQj-u3H2qsRagwKbIj2f0i_zUL_5QCM" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>สรุปวิจัย</p>
+                        </a>
+                      </li>                       
+                      <li class="nav-item">
+                        <a href="https://create.kahoot.it/details/cpsc321-cpsc332-621/5cb73ea7-56ae-4fc0-8dd8-382aaab132ec?fbclid=IwAR27mT2MufMhfmZy4UtGHWFE-pzPSsYk2QzoJSiskUfViI0TaP5ptJ5eqUA" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Kahoot game</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/CPSC321HCI_ATOM?fbclid=IwAR2YQb8VNCZDumOlNQckyu9aneGJHu2uzZUAh3Qt82kgfwSFd1EVhoISU-Q" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>Script select table </p>
+                        </a>
+                      </li>      
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item has-treeview menu-close">
+                    <a href="#" class="nav-link">
+                      <i class="fas fa-clipboard"></i>
+                      <p>
+                        CPSC331_621
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/home/blob/gh-pages/6008111001-Kronwarin-%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%81%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%88%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%99.pptx" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>ตรรกศาสตร์ที่ว่าด้วยประพจน์และการอนุมาน</p>
+                        </a>
+                      </li>                       
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/home/blob/gh-pages/6008111001-Kronwarin-%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%20(State%20Space).pptx" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>ปริภูมิสถานะ</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="https://github.com/Kronwarin/home/blob/gh-pages/6008111001-kronwarin-%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C.pptx" class="nav-link">
+                          <i class="fas fa-thumbtack"></i>
+                          <p>คุณสมบัติและข้อจำกัดของปัญญาประดิษฐ์ </p>
+                        </a>
+                      </li>      
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>      
+      
+		
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">  
+    <!-- Main content -->
+    <section class="content">
+	
+
+<div class="attachment-block clearfix">
+<div class="attachment-pushed">
+<h4 class="attachment-heading"><a href="https://upload.facebook.com/AppCreateUniversity/">My Web Site</a></h4>
+<div class="attachment-text">
+  <iframe src="https://kronwarin.github.io/mycool/" width="800" height="1000" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<hr>
+<h4 class="attachment-heading"><a href="https://upload.facebook.com/AppCreateUniversity/">My university</a></h4>
+<div class="attachment-text">
+  <iframe src="https://nation.ac.th/index.php/th/" height="600" width="800" frameborder="0"></iframe>
+<p>
+<span class="bigcap">ความเป็นมา</span><b>มหาวิทยาลัยเนชั่น เดิมมีชื่อเรียกว่า “วิทยาลัยโยนก” ได้รับอนุมัติจากทบวงมหาวิทยาลัยให้เปิดการเรียนการสอนตั้งแต่ปี พ.ศ. 2531 ดำเนินการโดยมูลนิธิโยนก วิทยาลัยโยนกได้รับอนุญาตจากสำนักงานคณะกรรมการการอุดมศึกษาให้เปลี่ยนประเภทจากวิทยาลัยเป็น “มหาวิทยาลัยโยนก” เมื่อวันที่ 23 สิงหาคม 2549 และต่อมาเมื่อวันที่ 30 พฤศจิกายน พ.ศ. 2554 กระทรวงศึกษาธิการโดยคำแนะนำของคณะกรรมการการอุดมศึกษาอนุญาตให้เปลี่ยนชื่อเป็น “มหาวิทยาลัยเนชั่น” มหาวิทยาลัยเปิดการเรียนการสอนในระดับปริญญาตรี และระดับปริญญาโท โดยเปิดสอนมาจนถึงปัจจุบันรวม 32 ปี (พ.ศ. 2531 – 2563) มีผู้สำเร็จการศึกษาแล้วมากกว่า 8,444 คน แบ่งเป็นระดับปริญญาตรี 6,907 คนและระดับปริญญาโท 1,537 คน
+
+  มหาวิทยาลัยเนชั่นเป็นสถาบันอุดมศึกษาเอกชนของจังหวัดลำปางที่มุ่งผลิตบัณฑิตที่มีคุณภาพให้แก่สังคมด้วยกระบวนการเรียนการสอนที่มุ่งเน้นให้นิสิตเป็นนักคิด ใฝ่เรียนรู้ ทั้งในด้านวิชาการ การประยุกต์ใช้ และมีคุณธรรม จิตสำนึกต่อสาธารณะ โดยมีกิจกรรมเพื่อฝึกฝนให้นิสิตมีประสบการณ์จริงสามารถนำความรู้ไปใช้ในการปฏิบัติหน้าที่การงานได้อย่างมีประสิทธิภาพ
+  
+  มหาวิทยาลัยมีภูมิทัศน์ที่สวยงามตามธรรมชาติ บรรยากาศการเรียนการสอนที่เอื้อต่อการเรียนรู้และการใช้ชีวิตในมหาวิทยาลัยเป็น “อุทยานการศึกษา” มีการจัดการเรียนการสอนที่นิสิตมีความใกล้ชิดกับคณาจารย์ อีกทั้งยังมีสิ่งอำนวยความสะดวกด้านต่าง ๆ อาทิ ห้องสมุด หอพักนิสิตชาย หอพักนิสิตหญิง ห้องปฏิบัติการคอมพิวเตอร์ ห้องปฏิบัติการเทคโนโลยีการสื่อสาร (ฝึกปฏิบัติการถ่ายทอดโทรทัศน์ วิทยุกระจายเสียง) มหาวิทยาลัย ตั้งอยู่ ณ เลขที่ 444 ถนนวชิราวุธดำเนิน ตำบลพระบาท อำเภอเมือง จังหวัดลำปาง
+</p>
+</div>
+</div>
+</div>  
+	  
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.4
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="https://adminlte.io/themes/v3/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://adminlte.io/themes/v3/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="https://adminlte.io/themes/v3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="https://adminlte.io/themes/v3/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="https://adminlte.io/themes/v3/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="https://adminlte.io/themes/v3/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="https://adminlte.io/themes/v3/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="https://adminlte.io/themes/v3/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="https://adminlte.io/themes/v3/plugins/moment/moment.min.js"></script>
+<script src="https://adminlte.io/themes/v3/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="https://adminlte.io/themes/v3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="https://adminlte.io/themes/v3/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="https://adminlte.io/themes/v3/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="https://adminlte.io/themes/v3/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="https://www.masterhook.net/public/assets/dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="https://adminlte.io/themes/v3/dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="https://adminlte.io/themes/v3/dist/js/demo.js"></script>
+</body>
+</html>
